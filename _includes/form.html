@@ -1,0 +1,27 @@
+<div id="formThanks" class="d-none">Thank you for your submission!</div>
+<form id="gravesideComments">
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="name">Name</label>
+      <input name="Name" class="form-control" id="name" type="text" placeholder="Name">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="Comment">Memories of Marissa or Messages for the Family</label>
+    <textarea name="Comment" class="form-control" id="comment" rows="5" placeholder="Leave a memory of Marissa or a message to the family..."></textarea>
+  </div>
+  <hr>
+  <p>If you would like your comment to be publicly displayed on this page, no action is necessary. Otherwise, please select the checkbox below.</p>
+  <div class="form-group">
+    <div class="custom-control custom-checkbox">
+      <input type="checkbox" id="privateComment" class="custom-control-input">
+      <label class="custom-control-label" for="privateComment">Please only share my comment with the family.</label>
+    </div>
+    <input name="Public" class="form-control d-none" id="privateToggle" type="text" value="Yes">
+  </div>
+  <div class="form-row justify-content-center">
+    <div class="form-group col-md-6">
+      <button class="btn btn-outline-primary btn-lg btn-block" type="submit" id="submit-form">Submit</button>
+    </div>
+  </div>
+</form>

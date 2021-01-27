@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<!-- <iframe src="https://open.spotify.com/embed/playlist/479iB1F8BukUcCNtp0JjYU" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> -->
+
+<div class="container pt-3">
+  <h2>Hello! Welcome to the living memorial for Marissa.</h2>
+  <p>Marissa was just 19 years old when her life was taken (and ours were forever changed) on October 3, 2020 by the actions of one man who decided to drive drunk. While her death is a tragedy, that does not define her. Her life was about love, joy, and living life to the fullest -- so that is what we choose to celebrate and remember. She loved BIG and made a difference in so many lives.</p>
+  <p>We hope that you will enjoy looking at the pictures and videos on this website as you remember Marissa or as you get to know her for the first time. If you wish to share a memory of Marissa or send a message to the family, you may do so using the form below. Your comment will be publicly displayed on the website unless you choose to share it with the family only.</p>
+  <hr>
+  <h2>Share a Memory or Leave a Comment</h2>
+  {% include form.html %}
+  <hr>
+  <div id="commentDisplay">
+    <h2 id="loadingComments">
+      <div class="spinner-border" role="status"></div>
+      Loading comments...
+    </h2>
+    {% include comment.html %}
+  </div>
+</div>

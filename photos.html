@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="container pt-3 photoAlbum">
+  <span>We hope you enjoy these candid photo memories of Marissa, her friends, and the places and things she loved. If you have a photo you'd like to share here, please email it to <a href="mailto:inmemoryofmarissa@gmail.com">inmemoryofmarissa@gmail.com</a>.</span>
+  <hr>
+  <div class="card-columns">
+    {% assign photos = site.static_files | where: "photo", true %}
+    {% for photo in photos %}
+      <div class="card">
+        <img src="{{ photo.path }}" class="card-img photo"/>
+      </div>
+    {% endfor %}
+  </div>
+</div>

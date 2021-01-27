@@ -1,0 +1,158 @@
+body {
+  background: url('../images/background.webp') no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body#home {
+  background-image: url('../images/marissa.jpg');
+}
+
+body,
+h3,
+h4,
+h5,
+h6,
+a,
+a:hover,
+.btn {
+  font-family: 'Delius', cursive;
+  font-weight: bold;
+  color: #af4e28;
+}
+
+h1,
+h2,
+.h1,
+.h2,
+.navbar-light .navbar-brand {
+  font-family: 'Lobster', cursive;
+  color: #af4e28;
+}
+
+.btn-outline-primary {
+  /* background-color: #d5c1b6; */
+  background-color: #e6d5cc;
+  color: #af4e28;
+  border-color: #af4e28;
+}
+
+.text-muted {
+  color: rgba(175, 78, 40, 0.5) !important;
+}
+
+.btn-primary,
+.btn-outline-primary:hover {
+  color: white;
+  border-color: #af4e28;
+  background-color: #af4e28;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-outline-primary:active,
+.btn-outline-primary:focus,
+.btn-outline-primary:not(:disabled):not(.disabled):active {
+  color: white;
+  background-color: #983c17;
+  /* background-color: #af4e28; */
+  border-color: #af4e28;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus,
+.show>.btn-outline-primary.dropdown-toggle:focus,
+.btn-outline-primary.focus, .btn-outline-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(213, 193, 182,.25);
+}
+
+.form-control,
+.form-control:focus {
+  color: #af4e28;
+  font-weight:bold;
+  background-color: rgba(213, 193, 182, 0.3);
+  border-color: rgba(175, 78, 40, 0.5);
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(213, 193, 182,.25);
+  border-color: rgba(175, 78, 40, 1);
+}
+
+.custom-control-label::before {
+  background-color: rgba(213, 193, 182, 0.3);
+  border-color: rgba(175, 78, 40, 0.5);
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+  border-color: rgba(175, 78, 40, 1);
+  background-color: rgba(175, 78, 40, 1);
+}
+
+.custom-control.custom-radio:hover,
+.custom-control-label:hover,
+.custom-control-input:hover {
+  cursor: pointer;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #af4e28;
+}
+
+.navbar-light {
+  background-color: #e6d5cc;
+}
+
+@media (min-width: 991px) {
+  .navbar-light {
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .navbar-brand {
+    display: none;
+  }
+}
+
+/* ----------------------------------------------- */
+/* Comment styles
+-------------------------------------------------- */
+
+.commentObject {
+  background-color: rgba(230, 213, 204, 0.5);
+}
+
+.commentObject .card-footer {
+  background-color: rgba(230, 213, 204, 0.5);
+}
+
+/* Footer styles */
+
+.footer {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: rgba(175, 78, 40, 0.5) !important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: rgba(175, 78, 40, 0.5) !important;
+   opacity: 1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: rgba(175, 78, 40, 0.5) !important;
+   opacity: 1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: rgba(175, 78, 40, 0.5) !important;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: rgba(175, 78, 40, 0.5) !important;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color: rgba(175, 78, 40, 0.5) !important;
+}
